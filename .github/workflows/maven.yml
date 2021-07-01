@@ -23,3 +23,9 @@ jobs:
         distribution: 'adopt'
     - name: Build with Maven
       run: mvn -B test --file pom.xml
+
+    - name: Deploy cucumber report to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./target/
