@@ -1,16 +1,16 @@
-package TestUtil;
+package stepDefination;
 
 import commonUtils.Driver;
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import org.openqa.selenium.WebDriver;
-import pages.BasicVariables;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import pages.Page;
+import pages.PageInstances;
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class BeforeAfter {
+public class BeforeAfter extends PageInstances {
     public Properties prop;
 
     @Before
@@ -20,19 +20,20 @@ public class BeforeAfter {
         prop = loadProp();
         browser = prop.getProperty("browser");
         url = prop.getProperty("url");
-        BasicVariables.driver = new Driver().get(browser,url);
+        driver = new Driver().get(browser,url);
+        page = new Page();
     }
 
     @After
     public void teardown() {
         System.out.println("Inside Teardown");
-        BasicVariables.driver.quit();
+        driver.quit();
     }
 
     public Properties loadProp () {
             try {
                 prop = new Properties();
-                FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/test/java/config/config.properties");
+                FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/config/config.properties");
                 prop.load(ip);
             } catch (IOException e) {
                 e.printStackTrace();

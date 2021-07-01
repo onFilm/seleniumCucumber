@@ -1,14 +1,14 @@
 package stepDefination;
 
-import cucumber.api.java.en.Given;
+import io.cucumber.java.en.Given;
 import org.junit.Assert;
-import pages.Page;
+import pages.PageInstances;
 
-public class debug extends Page {
+public class debugStep extends PageInstances {
 
     @Given("^I verify the \"([^\"]*)\" page title is displayed$")
     public void i_verify_the_something_page_title_is_displayed(String title) {
         String pageTitle = driver.getTitle();
-        Assert.assertTrue("Wrong Page title", pageTitle.equalsIgnoreCase(title) );
+        Assert.assertTrue("Wrong Page Title", pageTitle.equalsIgnoreCase(title) );
     }
 }
