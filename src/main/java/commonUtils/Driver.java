@@ -5,6 +5,7 @@ import io.github.bonigarcia.wdm.EdgeDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -20,6 +21,14 @@ public class Driver {
             System.out.println("Opening chrome browser");
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
+        } else if (browserType.equalsIgnoreCase("CH_headless")) {
+            System.out.println("Opening chrome browser");
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--headless");
+            driver = new ChromeDriver(options);
         } else if (browserType.equalsIgnoreCase("FF")) {
             System.out.println("Opening Firefox browser");
             WebDriverManager.firefoxdriver().setup();
