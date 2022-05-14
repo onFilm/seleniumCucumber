@@ -1,7 +1,7 @@
 stepDefination/BeforeAfter.class
 commonUtils/Driver.class
-pages/Page.class
 stepDefination/debugStep.class
+pages/Page.class
 TestUtil/RunnerTest.class
 stepDefination/commonSteps.class
 pages/PageInstances.class
