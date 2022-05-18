@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-18T04:51:49 UTC" name="Surefire suite" finished-at="2022-05-18T04:52:09 UTC" duration-ms="19118">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-18T04:51:49 UTC" name="Surefire test" finished-at="2022-05-18T04:52:09 UTC" duration-ms="19118">
+      <class name="TestUtil.TestNGRunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:51:49 UTC" name="setUpClass" finished-at="2022-05-18T04:51:50 UTC" duration-ms="497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2364305a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:51:50 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T04:52:04 UTC" duration-ms="14111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify title of the sauce labs demo app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["debug"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:51:50 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T04:52:04 UTC" duration-ms="14117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify title of the sauce labs demo app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["debug"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:52:04 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T04:52:05 UTC" duration-ms="978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify title of the sauce labs demo app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["debug"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:52:04 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T04:52:05 UTC" duration-ms="1062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify title of the sauce labs demo app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["debug"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:52:05 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T04:52:06 UTC" duration-ms="926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify title of the sauce labs demo app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["debug"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:52:05 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T04:52:06 UTC" duration-ms="931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify title of the sauce labs demo app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["debug"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:52:06 UTC" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-18T04:52:07 UTC" duration-ms="1385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to SwagLabs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestUtil.TestNGRunnerTest@2aa3cd93]" started-at="2022-05-18T04:52:07 UTC" name="tearDownClass" finished-at="2022-05-18T04:52:09 UTC" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestUtil.TestNGRunnerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
